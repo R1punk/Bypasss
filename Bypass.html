@@ -7,6 +7,22 @@
     <style>
         body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
         a { display: block; margin: 10px 0; font-size: 18px; text-decoration: none; color: #007bff; }
+        p { font-size: 16px; color: #333; }
+        .donate-container { margin-top: 30px; }
+        .donate-btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .coffee { background-color: #ff9500; } /* Buy Me a Coffee */
+        .paypal { background-color: #0070ba; } /* PayPal */
+        .saweria { background-color: #ff5f5f; } /* Saweria */
+        .ovo { background-color: #7a3cff; } /* OVO */
+        .dana { background-color: #0095da; } /* DANA */
     </style>
 </head>
 <body>
@@ -17,5 +33,21 @@
     <a href="intent://com.android.settings/#Intent;scheme=android-app;end;">⚙️ Open Settings</a>
     <a href="intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end;">🔓 Open Smart Lock</a>
     
+    <h3>Catatan:</h3>
+    <p>Jika salah satu link tidak berfungsi, kemungkinan besar perangkat Anda memiliki pengaturan keamanan yang lebih ketat.</p>
+    <p>Coba gunakan metode alternatif, seperti aplikasi "Shortcut Maker" untuk membuat pintasan ke pengaturan yang diinginkan.</p>
+
+    <!-- Tombol Donasi -->
+    <div class="donate-container">
+        <h3>💰 Dukung Saya</h3>
+        <p>Jika informasi ini bermanfaat, silakan berdonasi melalui salah satu metode berikut:</p>
+
+        <a class="donate-btn coffee" href="https://www.buymeacoffee.com/username" target="_blank">☕ Buy Me a Coffee</a>
+        <a class="donate-btn paypal" href="https://www.paypal.me/username" target="_blank">💳 PayPal</a>
+        <a class="donate-btn saweria" href="https://saweria.co/username" target="_blank">🎁 Saweria</a>
+        <a class="donate-btn ovo" href="https://linktr.ee/username" target="_blank">📲 OVO</a>
+        <a class="donate-btn dana" href="https://linktr.ee/username" target="_blank">💸 DANA</a>
+    </div>
+
 </body>
 </html>
